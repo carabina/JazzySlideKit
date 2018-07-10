@@ -20,10 +20,11 @@ class CustomNavigationController: JazzySlideNavigationController {
         super.viewDidLoad()
         
         //Customize push and pop transition animation timings
-        pushTransition.delay = 0.15 //Adding delay before push transition. Default is 0.
-        popTransition.springDampingRatio = 0.75 //Adding spring damping effect for pop transition. Default is 0.
-        popTransition.animationOptions = [.curveEaseInOut] //Customizing animation options for pop transition. Default is [.curveEaseOut]
-        popTransition.backgroundColor = .clear //Setting background color to `.clear` for pop transition. Default is `nil` which usually appears as `.black`.
+        pushTransition.delay = 0.15
+        pushTransition.duration = 0.45
+        popTransition.springDampingRatio = 0.75
+        popTransition.animationOptions = [.curveEaseInOut]
+        popTransition.backgroundColor = .clear
         //etc...
         
         //Add a background image to navigation stack for onboarding experience
