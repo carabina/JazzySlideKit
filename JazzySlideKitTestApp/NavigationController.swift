@@ -26,6 +26,7 @@ class NavigationController: JazzySlideNavigationController {
         navigationBar.backgroundColor = .clear
         navigationBar.shadowImage = UIImage()
         navigationBar.setBackgroundImage(UIImage(), for: .default)
+        setNavigationBarHidden(true, animated: true)
         self.view.insertSubview(imageView, at: 0)
         self.view.insertSubview(visualEffectView, at: 1)
         self.view.layoutIfNeeded()

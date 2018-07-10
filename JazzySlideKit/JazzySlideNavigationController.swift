@@ -9,16 +9,20 @@
 import UIKit
 
 @objc
+@objcMembers
+@available(iOS 10.0, *)
 open class JazzySlideNavigationController: UINavigationController {
     
     private var jazzySlideDelegate = JazzySlideNavigationControllerDelegate()
     
-    public var pushTransition: JazzySlidePushTransition {
-        return jazzySlideDelegate.pushTransition
+    public var pushTransition: JazzySlideTransition {
+        get { return jazzySlideDelegate.pushTransition }
+        set { jazzySlideDelegate.pushTransition = newValue }
     }
     
-    public var popTransition: JazzySlidePopTransition {
-        return jazzySlideDelegate.popTransition
+    public var popTransition: JazzySlideTransition {
+        get { return jazzySlideDelegate.popTransition }
+        set { jazzySlideDelegate.popTransition = newValue }
     }
     
     override open func viewDidLoad() {

@@ -1,5 +1,6 @@
 language: swift
 osx_image: xcode9.4
+cache: bundler
 
 env:
   - OS="11.4" DEVICE="iPhone X"
@@ -10,19 +11,29 @@ env:
   - OS="10.3.1" DEVICE="iPhone 7 Plus"
   - OS="10.3.1" DEVICE="iPad Pro (10.5-inch)"
 
+before_install:
+  - set -eo pipefail
+
 script: |
-  set -o pipefail
   xcodebuild test \
   -scheme JazzySlideKitUITests \
-  -destination "platform=iOS Simulator,name=$DEVICE,OS=$OS" | xcpretty
+  -destination "platform=iOS Simulator,name=$DEVICE,OS=$OS" | xcpretty -c -f `xcpretty-travis-formatter`
 
 jobs:
   include:
     - stage: deploy
+      script:
+        - brew install libpng jpeg imagemagick
+        - bundle exec fastlane snapshot
+        - bash <(curl -s https://api.sightr.io/bash) -d ./screenshots
+      env:
+        - SNAPSHOT_SKIP_OPEN_SUMMARY=true
+        - SNAPSHOT_XCPRETTY_ARGS="-c -f `xcpretty-travis-formatter`"
+      if: false
+    - stage: deploy
+      script:
+        - npm i -g podspec-bump
+        - podspec-bump -w -i $TRAVIS_TAG
+        - pod trunk push 
       if: tag =~ /[0-9]+(\.[0-9]+)*/
-      script: |
-        set -e
-        npm i -g podspec-bump
-        podspec-bump -w -i $TRAVIS_TAG
-        pod trunk push
       

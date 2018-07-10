@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72631DB20F417DB001DFE02 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72631DA20F417DB001DFE02 /* Page1ViewController.swift */; };
+		D72C103120F47646003B0F79 /* JazzySlideKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C103020F47646003B0F79 /* JazzySlideKitUITests.swift */; };
+		D72C103820F4765C003B0F79 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72C102820F42CA2003B0F79 /* SnapshotHelper.swift */; };
 		D747CDC420ECA30B00BB124C /* SlideFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D747CDC220ECA30B00BB124C /* SlideFlow.storyboard */; };
 		D747CDC620ECA51F00BB124C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CDC520ECA51F00BB124C /* NavigationController.swift */; };
 		D7DC601B20EC0BAF00328B0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC601A20EC0BAF00328B0D /* AppDelegate.swift */; };
 		D7DC602020EC0BAF00328B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DC601E20EC0BAF00328B0D /* Main.storyboard */; };
 		D7DC602220EC0BB100328B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DC602120EC0BB100328B0D /* Assets.xcassets */; };
 		D7DC602520EC0BB100328B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DC602320EC0BB100328B0D /* LaunchScreen.storyboard */; };
-		D7DC603120EC0BCA00328B0D /* JazzySlideKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC603020EC0BCA00328B0D /* JazzySlideKitUITests.swift */; };
 		D7DC604D20EC2E9400328B0D /* JazzySlideKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DC604B20EC2E9400328B0D /* JazzySlideKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7DC605020EC2E9400328B0D /* JazzySlideKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DC604920EC2E9400328B0D /* JazzySlideKit.framework */; };
 		D7DC605120EC2E9400328B0D /* JazzySlideKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7DC604920EC2E9400328B0D /* JazzySlideKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -25,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D7DC603320EC0BCA00328B0D /* PBXContainerItemProxy */ = {
+		D72C103320F47646003B0F79 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D7DC600020EBF6AC00328B0D /* Project object */;
 			proxyType = 1;
@@ -56,6 +58,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D72631DA20F417DB001DFE02 /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		D72C102820F42CA2003B0F79 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		D72C102E20F47646003B0F79 /* JazzySlideKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JazzySlideKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72C103020F47646003B0F79 /* JazzySlideKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JazzySlideKitUITests.swift; sourceTree = "<group>"; };
+		D72C103220F47646003B0F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D747CDC320ECA30B00BB124C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SlideFlow.storyboard; sourceTree = "<group>"; };
 		D747CDC520ECA51F00BB124C /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		D7DC601820EC0BAF00328B0D /* JazzySlideKitTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JazzySlideKitTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,9 +71,6 @@
 		D7DC602120EC0BB100328B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7DC602420EC0BB100328B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7DC602620EC0BB100328B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7DC602E20EC0BCA00328B0D /* JazzySlideKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JazzySlideKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7DC603020EC0BCA00328B0D /* JazzySlideKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JazzySlideKitUITests.swift; sourceTree = "<group>"; };
-		D7DC603220EC0BCA00328B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7DC604920EC2E9400328B0D /* JazzySlideKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JazzySlideKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DC604B20EC2E9400328B0D /* JazzySlideKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JazzySlideKit.h; sourceTree = "<group>"; };
 		D7DC604C20EC2E9400328B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,18 +82,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D72C102B20F47646003B0F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7DC601520EC0BAF00328B0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D7DC605020EC2E9400328B0D /* JazzySlideKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7DC602B20EC0BCA00328B0D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,14 +107,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D72C102F20F47646003B0F79 /* JazzySlideKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D72C102820F42CA2003B0F79 /* SnapshotHelper.swift */,
+				D72C103020F47646003B0F79 /* JazzySlideKitUITests.swift */,
+				D72C103220F47646003B0F79 /* Info.plist */,
+			);
+			path = JazzySlideKitUITests;
+			sourceTree = "<group>";
+		};
 		D7DC5FFF20EBF6AC00328B0D = {
 			isa = PBXGroup;
 			children = (
 				D7DC604A20EC2E9400328B0D /* JazzySlideKit */,
 				D7DC601920EC0BAF00328B0D /* JazzySlideKitTestApp */,
-				D7DC602F20EC0BCA00328B0D /* JazzySlideKitUITests */,
+				D72C102F20F47646003B0F79 /* JazzySlideKitUITests */,
 				D7DC600920EBF6AC00328B0D /* Products */,
-				D7DC604220EC2C3200328B0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,8 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				D7DC601820EC0BAF00328B0D /* JazzySlideKitTestApp.app */,
-				D7DC602E20EC0BCA00328B0D /* JazzySlideKitUITests.xctest */,
 				D7DC604920EC2E9400328B0D /* JazzySlideKit.framework */,
+				D72C102E20F47646003B0F79 /* JazzySlideKitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,6 +142,7 @@
 			children = (
 				D7DC601A20EC0BAF00328B0D /* AppDelegate.swift */,
 				D747CDC520ECA51F00BB124C /* NavigationController.swift */,
+				D72631DA20F417DB001DFE02 /* Page1ViewController.swift */,
 				D7DC601E20EC0BAF00328B0D /* Main.storyboard */,
 				D747CDC220ECA30B00BB124C /* SlideFlow.storyboard */,
 				D7DC602120EC0BB100328B0D /* Assets.xcassets */,
@@ -136,22 +150,6 @@
 				D7DC602620EC0BB100328B0D /* Info.plist */,
 			);
 			path = JazzySlideKitTestApp;
-			sourceTree = "<group>";
-		};
-		D7DC602F20EC0BCA00328B0D /* JazzySlideKitUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D7DC603020EC0BCA00328B0D /* JazzySlideKitUITests.swift */,
-				D7DC603220EC0BCA00328B0D /* Info.plist */,
-			);
-			path = JazzySlideKitUITests;
-			sourceTree = "<group>";
-		};
-		D7DC604220EC2C3200328B0D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D7DC604A20EC2E9400328B0D /* JazzySlideKit */ = {
@@ -182,6 +180,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		D72C102D20F47646003B0F79 /* JazzySlideKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72C103520F47646003B0F79 /* Build configuration list for PBXNativeTarget "JazzySlideKitUITests" */;
+			buildPhases = (
+				D72C102A20F47646003B0F79 /* Sources */,
+				D72C102B20F47646003B0F79 /* Frameworks */,
+				D72C102C20F47646003B0F79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D72C103420F47646003B0F79 /* PBXTargetDependency */,
+			);
+			name = JazzySlideKitUITests;
+			productName = JazzySlideKitUITests;
+			productReference = D72C102E20F47646003B0F79 /* JazzySlideKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D7DC601720EC0BAF00328B0D /* JazzySlideKitTestApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7DC602920EC0BB100328B0D /* Build configuration list for PBXNativeTarget "JazzySlideKitTestApp" */;
@@ -200,24 +216,6 @@
 			productName = JazzySlideKitTestApp;
 			productReference = D7DC601820EC0BAF00328B0D /* JazzySlideKitTestApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		D7DC602D20EC0BCA00328B0D /* JazzySlideKitUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D7DC603520EC0BCA00328B0D /* Build configuration list for PBXNativeTarget "JazzySlideKitUITests" */;
-			buildPhases = (
-				D7DC602A20EC0BCA00328B0D /* Sources */,
-				D7DC602B20EC0BCA00328B0D /* Frameworks */,
-				D7DC602C20EC0BCA00328B0D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D7DC603420EC0BCA00328B0D /* PBXTargetDependency */,
-			);
-			name = JazzySlideKitUITests;
-			productName = JazzySlideKitUITests;
-			productReference = D7DC602E20EC0BCA00328B0D /* JazzySlideKitUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		D7DC604820EC2E9400328B0D /* JazzySlideKit */ = {
 			isa = PBXNativeTarget;
@@ -248,12 +246,12 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Kyler Jensen";
 				TargetAttributes = {
-					D7DC601720EC0BAF00328B0D = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
-					D7DC602D20EC0BCA00328B0D = {
+					D72C102D20F47646003B0F79 = {
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = D7DC601720EC0BAF00328B0D;
+					};
+					D7DC601720EC0BAF00328B0D = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 					D7DC604820EC2E9400328B0D = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -276,12 +274,19 @@
 			targets = (
 				D7DC604820EC2E9400328B0D /* JazzySlideKit */,
 				D7DC601720EC0BAF00328B0D /* JazzySlideKitTestApp */,
-				D7DC602D20EC0BCA00328B0D /* JazzySlideKitUITests */,
+				D72C102D20F47646003B0F79 /* JazzySlideKitUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D72C102C20F47646003B0F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7DC601620EC0BAF00328B0D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,13 +295,6 @@
 				D7DC602520EC0BB100328B0D /* LaunchScreen.storyboard in Resources */,
 				D7DC602220EC0BB100328B0D /* Assets.xcassets in Resources */,
 				D7DC602020EC0BAF00328B0D /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7DC602C20EC0BCA00328B0D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,20 +308,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D72C102A20F47646003B0F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72C103120F47646003B0F79 /* JazzySlideKitUITests.swift in Sources */,
+				D72C103820F4765C003B0F79 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7DC601420EC0BAF00328B0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D747CDC620ECA51F00BB124C /* NavigationController.swift in Sources */,
+				D72631DB20F417DB001DFE02 /* Page1ViewController.swift in Sources */,
 				D7DC601B20EC0BAF00328B0D /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7DC602A20EC0BCA00328B0D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7DC603120EC0BCA00328B0D /* JazzySlideKitUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,10 +342,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D7DC603420EC0BCA00328B0D /* PBXTargetDependency */ = {
+		D72C103420F47646003B0F79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D7DC601720EC0BAF00328B0D /* JazzySlideKitTestApp */;
-			targetProxy = D7DC603320EC0BCA00328B0D /* PBXContainerItemProxy */;
+			targetProxy = D72C103320F47646003B0F79 /* PBXContainerItemProxy */;
 		};
 		D7DC604F20EC2E9400328B0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -382,6 +382,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D72C103620F47646003B0F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JazzySlideKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.JazzyComponents.JazzySlideKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JazzySlideKitTestApp;
+			};
+			name = Debug;
+		};
+		D72C103720F47646003B0F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JazzySlideKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.JazzyComponents.JazzySlideKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JazzySlideKitTestApp;
+			};
+			name = Release;
+		};
 		D7DC600D20EBF6AC00328B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -536,44 +572,6 @@
 			};
 			name = Release;
 		};
-		D7DC603620EC0BCA00328B0D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = JazzySlideKitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.JazzyComponents.JazzySlideKitUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JazzySlideKitTestApp;
-			};
-			name = Debug;
-		};
-		D7DC603720EC0BCA00328B0D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = JazzySlideKitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.JazzyComponents.JazzySlideKitUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JazzySlideKitTestApp;
-			};
-			name = Release;
-		};
 		D7DC605320EC2E9400328B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -638,6 +636,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D72C103520F47646003B0F79 /* Build configuration list for PBXNativeTarget "JazzySlideKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72C103620F47646003B0F79 /* Debug */,
+				D72C103720F47646003B0F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D7DC600320EBF6AC00328B0D /* Build configuration list for PBXProject "JazzySlideKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -652,15 +659,6 @@
 			buildConfigurations = (
 				D7DC602720EC0BB100328B0D /* Debug */,
 				D7DC602820EC0BB100328B0D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D7DC603520EC0BCA00328B0D /* Build configuration list for PBXNativeTarget "JazzySlideKitUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D7DC603620EC0BCA00328B0D /* Debug */,
-				D7DC603720EC0BCA00328B0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

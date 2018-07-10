@@ -42,7 +42,7 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D7DC602D20EC0BCA00328B0D"
+               BlueprintIdentifier = "D72C102D20F47646003B0F79"
                BuildableName = "JazzySlideKitUITests.xctest"
                BlueprintName = "JazzySlideKitUITests"
                ReferencedContainer = "container:JazzySlideKit.xcodeproj">
@@ -60,7 +60,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D7DC602D20EC0BCA00328B0D"
+               BlueprintIdentifier = "D72C102D20F47646003B0F79"
                BuildableName = "JazzySlideKitUITests.xctest"
                BlueprintName = "JazzySlideKitUITests"
                ReferencedContainer = "container:JazzySlideKit.xcodeproj">
@@ -98,6 +98,18 @@
             ReferencedContainer = "container:JazzySlideKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "FB_REFERENCE_IMAGE_DIR"
+            value = "$(SOURCE_ROOT)/Snapshots/ReferenceImages"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "IMAGE_DIFF_DIR"
+            value = "$(SOURCE_ROOT)/Snapshots/FailureDiffs"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

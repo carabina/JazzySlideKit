@@ -10,10 +10,15 @@ import UIKit
 
 @objc
 @objcMembers
+@available(iOS 10.0, *)
 open class JazzySlidePopTransition: JazzySlideTransition {
     
-    public init() {
-        super.init(mode: .horizontalPop)
+    override open func initialTransform(for transitionContext: UIViewControllerContextTransitioning, fromView: UIView, toView: UIView) -> CGAffineTransform {
+        return CGAffineTransform(translationX: fromView.frame.width.negated, y: 0)
+    }
+    
+    override open func finalTransform(for transitionContext: UIViewControllerContextTransitioning, fromView: UIView, toView: UIView) -> CGAffineTransform {
+        return CGAffineTransform(translationX: fromView.frame.width, y: 0)
     }
 
 }

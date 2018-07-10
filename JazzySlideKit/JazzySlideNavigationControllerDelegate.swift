@@ -10,11 +10,11 @@ import UIKit
 
 @objc
 @objcMembers
+@available(iOS 10.0, *)
 open class JazzySlideNavigationControllerDelegate: NSObject, UINavigationControllerDelegate {
     
-    open var pushTransition = JazzySlidePushTransition()
-    
-    open var popTransition = JazzySlidePopTransition()
+    open var pushTransition: JazzySlideTransition = JazzySlidePushTransition()
+    open var popTransition: JazzySlideTransition = JazzySlidePopTransition()
     
     open func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         switch operation {
